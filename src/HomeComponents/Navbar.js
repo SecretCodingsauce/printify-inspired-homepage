@@ -8,8 +8,10 @@ export default function Navbar ({toggleMenu, isMenu}){
 
     return (
         <nav className="bg-white shadow">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-green-500">Printify</h1>
+        <div className="container mx-auto mb-0 px-4 py-4 flex justify-between items-center">
+          <div><h1 className="text-2xl font-bold text-green-500">Printify</h1>
+          <a  href='https://ayushmansharma-profile.vercel.app/' className='text-xs p-0 m-0' rel="noreferrer" target='_blank'>made by <span className='text-blue-800 underline'>Ayushman Sharma</span></a>  
+</div>
 
       
           <div className="md:hidden" onClick={toggleMenu}>
